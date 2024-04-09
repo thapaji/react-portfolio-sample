@@ -9,7 +9,7 @@ export const Navbar = () => {
             <div className="playfair-display">Sujan</div>
             <div className="line">Full-Stack Developer</div>
           </div>
-          <label for="hamburger-menu">
+          <label htmlFor="hamburger-menu">
             <i className="fa-solid fa-bars"></i>
           </label>
           <input type="checkbox" id="hamburger-menu" />

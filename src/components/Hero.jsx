@@ -1,4 +1,6 @@
 import React from "react";
+import profile from "../assets/profile-picture.png";
+import cv from "../assets/resume.pdf";
 
 export const Hero = () => {
   return (
@@ -12,7 +14,7 @@ export const Hero = () => {
             <div className="tag">Full Stack Developer</div>
             <span>based in Sydney.</span>
             <div>
-              <a href="./assets/Sujan_Bikram_Thapa_-_Full_Stack_Developer.pdf" download>
+              <a href={cv} download>
                 <button>
                   Download CV <i className="fa-solid fa-download"></i>
                 </button>
@@ -20,7 +22,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className="right flex">
-            <img src="./assets/profile-picture.png" alt="" width="100%" />
+            <img src={profile} alt="" width="100%" />
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import React from "react";
+import photo from "../assets/cropped_img.png";
 
 export const AboutMe = () => {
   return (
@@ -8,7 +9,7 @@ export const AboutMe = () => {
       </h2>
       <div className="about flex container">
         <div className="sec-pic">
-          <img src="./assets/cropped_img.png" alt="" width="100%" />
+          <img src={photo} alt="" width="100%" />
         </div>
         <p>
           Hello there, this is <span>Sujan Bikram Thapa</span>,<span>MERN STACK Developer</span>.
